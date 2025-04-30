@@ -1,3 +1,5 @@
-dd{
-    color: blue;
+/* 태그선택자로 색깔을 지정한다. */
+dd {
+	color:blue;	
 }
+ 

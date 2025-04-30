@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>C10FloatClearPosition.html</title>
 </head>
 <body>
     <style>
@@ -15,32 +15,30 @@
         height: auto;
         opacity: 0.3;
     }
-    .topleft{position: absolute; top: 10px; left: 10px;}
-    .topright{position: absolute; top: 10px; right: 10px;}
-    .centered{position: absolute; 
-        /* 방법 1 */
-        /* left: 50%; top: 50% */
-        /* 방법 2 */
-        width: 100%; text-align: center; top: 50%;}
-    .bottomleft{position: absolute;bottom: 10px; left: 10px;}
-    .bottomright{position: absolute;bottom: 10px; right: 10px;}
+    .topleft{position: absolute;top: 10px;left: 10px;}
+    .topright{position: absolute;top: 10px;right: 10px;}
+    .centered{
+        position: absolute;
+        /* 방법1 */
+        /* left: 50%;top: 50%; */
+        /* 방법2 */
+        width: 100%;text-align: center;top: 50%;
+    }
+    .bottomleft{position: absolute;bottom: 10px;left: 10px;}
+    .bottomright{position: absolute;bottom: 10px;right: 10px;}
     </style>
-    <!-- <div class="container">
-        <img src="./images/img_5terre_wide.jpg" width="1000" height="300">
-        <div class="topleft"  style="position: absolute; left: 0px; top: 0px;">Top Left</div>
-        <div class="topright" style="position: absolute; left: 729px; top: 0px;">Top Right</div>
-        <div class="centered" style="position: absolute; left: 350px; top: 125px;">centered</div>
-        <div class="bottomleft" style="position: absolute; left: 0px; top: 258px;">bottom Left</div>
-        <div class="bottomright" style="position: absolute; left: 700px; top: 258px;">bottom Right</div>
-    </div>  -->
     <div class="container">
         <img src="./images/img_5terre_wide.jpg" width="1000" height="300">
-        <div class="topleft"  >Top Left</div>
+        <div class="topleft">Top Left</div>
         <div class="topright">Top Right</div>
-        <div class="centered" >centered</div>
-        <div class="bottomleft" >bottom Left</div>
-        <div class="bottomright" >bottom Right</div>
+        <div class="centered">centered</div>
+        <div class="bottomleft">bottom Left</div>
+        <div class="bottomright">bottom Right</div>
     </div> 
-</body>
 
+    <br><br><br><br>
+    <br><br><br><br>
+</body>
 </html>
+
+
